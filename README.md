@@ -8,7 +8,7 @@ To implement 4 bit synchronous up counter and validate functionality.
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
 **4 bit synchronous UP Counter**
 
@@ -26,7 +26,7 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+**Procedure:**
 
 1.Initialize the shift register to a known state (e.g., all zeros).
 
@@ -40,7 +40,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 
 
-**PROGRAM**
+**PROGRAM:**
 ```
 Developed by: Nithishwar S
 RegisterNumber: 212221230071
@@ -60,17 +60,18 @@ endmodule
 ```
 
 
-**RTL LOGIC UP COUNTER**
+**RTL LOGIC UP COUNTER:**
 
 ![Screenshot 2024-04-27 192913](https://github.com/RahulKrishna05/SYNCHRONOUS-UP-COUNTER/assets/162027231/65fd63cb-d319-4a01-9805-e4819d522d52)
 
-**TIMING DIAGRAM FOR IP COUNTER**
+**TIMING DIAGRAM FOR IP COUNTER:**
 
 ![Screenshot 2024-04-27 192926](https://github.com/RahulKrishna05/SYNCHRONOUS-UP-COUNTER/assets/162027231/1670018e-d898-4a82-8e31-1b26c72f51cb)
 
-**TRUTH TABLE**
+**TRUTH TABLE:**
 
 ![Screenshot 2024-04-27 192938](https://github.com/RahulKrishna05/SYNCHRONOUS-UP-COUNTER/assets/162027231/4987059c-a83e-4b67-878c-9aa9dd5f17c6)
 
-**RESULTS**
+**RESULTS:**
+
 Hence a 4 bit synchronous up counter is implemented correctly
